@@ -1,4 +1,4 @@
-# DevOps Intern Assignment – AWS EC2, Nginx, Monitoring & CloudWatch
+# DevOps Intern Assignment
 
 ---
 
