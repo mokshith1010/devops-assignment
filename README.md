@@ -70,7 +70,7 @@ INSTANCE_ID=$(curl -s http://169.254.169.254/latest/meta-data/instance-id)
 UPTIME=$(uptime -p)  
 sudo tee /var/www/html/index.html
  
-3. Open a browser and navigate to http://<public-ip>
+3. Open a browser and navigate to http://public-ip
    
 📷 See screenshot:
 ![Part 2](https://raw.githubusercontent.com/mokshith1010/devops-assignment/main/screenshots/Part%20-%202.png)
@@ -82,7 +82,7 @@ sudo tee /var/www/html/index.html
 1. Script (see scripts/system_report.sh in this repo).
 2. Cron entry (see config/cron configuration.txt):
 */5 * * * * /usr/local/bin/system_report.sh >> /var/log/system_report.log 2>&1
-After at least two runs, /var/log/system_report.log contains multiple entries.
+3. After at least two runs, /var/log/system_report.log contains multiple entries.
 
 📷 See screenshots:
 
