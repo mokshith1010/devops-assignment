@@ -142,10 +142,16 @@ Automated Logging: The CloudWatch Agent automatically streams the system log int
 This submission demonstrates strong coverage of:
 
 Linux fundamentals (user management, hostname, cron jobs)
+
 Cloud infrastructure (AWS EC2, metadata)
+
 Web service deployment (Nginx)
+
 Automation and monitoring (Bash scripts, cron)
+
 Cloud logging integration (AWS CloudWatch)
+
 Clear, reproducible documentation
+
 
 Repository URL: https://github.com/mokshith1010/devops-assignment
