@@ -84,8 +84,8 @@ sudo tee /var/www/html/index.html
 After at least two runs, /var/log/system_report.log contains multiple entries.
 📷 See screenshots:
 
-Cron config:
-![Cron Config](https://raw.githubusercontent.com/mokshith1010/devops-assignment/main/screenshots/cron%20config.png)
+System Report Script:
+![System Report](https://raw.githubusercontent.com/mokshith1010/devops-assignment/main/screenshots/system_report.png)
 
 Script log output:
 ![Part 3](https://raw.githubusercontent.com/mokshith1010/devops-assignment/main/screenshots/Part%20-%203.png)
