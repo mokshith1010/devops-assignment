@@ -89,7 +89,7 @@ After at least two runs, /var/log/system_report.log contains multiple entries.
 System Report Script:
 ![System Report](https://raw.githubusercontent.com/mokshith1010/devops-assignment/main/screenshots/system_report.png)
 
-Script log output:
+Script Log Output:
 ![Part 3](https://raw.githubusercontent.com/mokshith1010/devops-assignment/main/screenshots/Part%20-%203.png)
 
 ## ☁️ Part 4 – AWS Integration with CloudWatch Logs
@@ -105,7 +105,7 @@ Configure and start the Amazon CloudWatch Agent to send your log file to the des
 
 📷 See screenshots:
 
-CLI/agent setup:
+CLI/agent Setup:
 ![Part 4 D-1.1](https://raw.githubusercontent.com/mokshith1010/devops-assignment/main/screenshots/Part%20-%204%20D-1.1.png)
 
 ![Part 4 D-1.2](https://raw.githubusercontent.com/mokshith1010/devops-assignment/main/screenshots/Part%20-%204%20D-1.2.png)
@@ -113,7 +113,7 @@ CLI/agent setup:
 ![Part 4 D-1.3](https://raw.githubusercontent.com/mokshith1010/devops-assignment/main/screenshots/Part%20-%204%20D-1.3.png)
 
 
-CloudWatch console view:
+CloudWatch Console View:
 ![Part 4 D-2.1](https://raw.githubusercontent.com/mokshith1010/devops-assignment/main/screenshots/Part%20-%204%20D-2.1.png)
 
 ![Part 4 D-2.2](https://raw.githubusercontent.com/mokshith1010/devops-assignment/main/screenshots/Part%20-%204%20D-2.2.png)
