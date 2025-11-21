@@ -135,11 +135,12 @@ CloudWatch Console View:
 
 ## 🔧 Bonus Features:
 Email Alert: The monitoring script includes an email alert if disk usage exceeds 80%.
+
 Automated Logging: The CloudWatch Agent automatically streams the system log into CloudWatch for real-time monitoring.
 
 
 ## 📝 Summary
-This submission demonstrates strong coverage of:
+### This submission demonstrates strong coverage of:
 
 -Linux fundamentals (user management, hostname, cron jobs)
 
