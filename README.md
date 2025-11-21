@@ -9,7 +9,7 @@ It demonstrates key DevOps skills: Linux user management, cloud infrastructure (
 ---
 
 ## 📁 Repository Structure  
-.
+
 ├── README.md
 ├── scripts/
 │ └── system_report.sh
@@ -65,12 +65,7 @@ sudo systemctl start nginx
 2. Create the HTML page:
 INSTANCE_ID=$(curl -s http://169.254.169.254/latest/meta-data/instance-id)  
 UPTIME=$(uptime -p)  
-sudo tee /var/www/html/index.html <<EOF  
-<html><body>  
-  <h1>Your Name: Mokshith</h1>  
-  <p>Instance ID: ${INSTANCE_ID}</p>  
-  <p>Server Uptime: ${UPTIME}</p>  
-</body></html>  
+sudo tee /var/www/html/index.html
  
 3. Open a browser and navigate to http://<public-ip>
    
