@@ -54,7 +54,7 @@ sudo -u devops_intern -i
 sudo whoami
 
 📷 See screenshot:
-Part - 1.png
+![Part 1](https://raw.githubusercontent.com/mokshith1010/devops-assignment/main/screenshots/Part%20-%201.png)
 
 ## 🌐 Part 2 – Simple Web Service Setup
 **Goal:** Install Nginx and serve a custom HTML page at /var/www/html/index.html that includes: your name, instance ID (from AWS metadata), and server uptime.
