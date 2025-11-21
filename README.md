@@ -72,7 +72,7 @@ sudo tee /var/www/html/index.html
 3. Open a browser and navigate to http://<public-ip>
    
 📷 See screenshot:
-Part - 2.png
+![Part 2](https://raw.githubusercontent.com/mokshith1010/devops-assignment/main/screenshots/Part%20-%202.png)
 
 ## 📊 Part 3 – Monitoring Script & Cron
 **Goal:** Create /usr/local/bin/system_report.sh to output system metrics (date/time, uptime, CPU %, memory %, disk usage, top 3 CPU processes), and schedule it with a cron job running every 5 minutes.
@@ -85,10 +85,10 @@ After at least two runs, /var/log/system_report.log contains multiple entries.
 📷 See screenshots:
 
 Cron config:
-cron config.png & cron configuration.txt
+![Cron Config](https://raw.githubusercontent.com/mokshith1010/devops-assignment/main/screenshots/cron%20config.png)
 
 Script log output:
-Part - 3.png
+![Part 3](https://raw.githubusercontent.com/mokshith1010/devops-assignment/main/screenshots/Part%20-%203.png)
 
 ## ☁️ Part 4 – AWS Integration with CloudWatch Logs
 **Goal:** Stream your log file (/var/log/system_report.log) into AWS CloudWatch Logs, under log group /devops/intern-metrics and log stream system_report.
@@ -103,13 +103,17 @@ Configure and start the Amazon CloudWatch Agent to send your log file to the des
 
 📷 See screenshots:
 CLI/agent setup:
-Part - 4 D-1.1.png
-Part - 4 D-1.2.png
-Part - 4 D-1.3.png
+![Part 4 D-1.1](https://raw.githubusercontent.com/mokshith1010/devops-assignment/main/screenshots/Part%20-%204%20D-1.1.png)
+
+![Part 4 D-1.2](https://raw.githubusercontent.com/mokshith1010/devops-assignment/main/screenshots/Part%20-%204%20D-1.2.png)
+
+![Part 4 D-1.3](https://raw.githubusercontent.com/mokshith1010/devops-assignment/main/screenshots/Part%20-%204%20D-1.3.png)
+
 
 CloudWatch console view:
-Part - 4 D-2.1.png
-Part - 4 D-2.2.png
+![Part 4 D-2.1](https://raw.githubusercontent.com/mokshith1010/devops-assignment/main/screenshots/Part%20-%204%20D-2.1.png)
+
+![Part 4 D-2.2](https://raw.githubusercontent.com/mokshith1010/devops-assignment/main/screenshots/Part%20-%204%20D-2.2.png)
 
 ## ✅ Part 5 – Documentation & Cleanup
 **Goal:** Provide detailed documentation of your setup steps (this README) and terminate any AWS resources after completion.
