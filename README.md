@@ -4,6 +4,7 @@
 
 ## 🎯 Project Overview  
 This repository contains my complete solution for the **DevOps Intern Assignment**.  
+
 It demonstrates key DevOps skills: Linux user management, cloud infrastructure (AWS EC2), web server deployment, automated monitoring via Bash + cron, and log integration with AWS CloudWatch.  
 
 ---
@@ -82,6 +83,7 @@ sudo tee /var/www/html/index.html
 2. Cron entry (see config/cron configuration.txt):
 */5 * * * * /usr/local/bin/system_report.sh >> /var/log/system_report.log 2>&1
 After at least two runs, /var/log/system_report.log contains multiple entries.
+
 📷 See screenshots:
 
 System Report Script:
@@ -102,6 +104,7 @@ Configure and start the Amazon CloudWatch Agent to send your log file to the des
 2. In AWS Console → CloudWatch → Logs → /devops/intern-metrics → system_report, you can monitor real-time entries of your system reports.
 
 📷 See screenshots:
+
 CLI/agent setup:
 ![Part 4 D-1.1](https://raw.githubusercontent.com/mokshith1010/devops-assignment/main/screenshots/Part%20-%204%20D-1.1.png)
 
