@@ -8,26 +8,28 @@ It demonstrates key DevOps skills: Linux user management, cloud infrastructure (
 
 ---
 
-## 📁 Repository Structure  
+## 📁 Repository Structure
 
+```
+.
 ├── README.md
 ├── scripts/
-│ └── system_report.sh
+│   └── system_report.sh
 ├── config/
-│ └── cron configuration.txt
+│   └── cron configuration.txt
 └── screenshots/
-├── Part - 1.png
-├── Part - 2.png
-├── Part - 3.png
-├── Part - 4 D-1.1.png
-├── Part - 4 D-1.2.png
-├── Part - 4 D-1.3.png
-├── Part - 4 D-2.1.png
-├── Part - 4 D-2.2.png
-├── cron config.png
-└── system_report.png
+    ├── Part - 1.png
+    ├── Part - 2.png
+    ├── Part - 3.png
+    ├── Part - 4 D-1.1.png
+    ├── Part - 4 D-1.2.png
+    ├── Part - 4 D-1.3.png
+    ├── Part - 4 D-2.1.png
+    ├── Part - 4 D-2.2.png
+    ├── cron config.png
+    └── system_report.png
+```
 
----
 
 ## 🧩 Part 1 – Environment Setup  
 **Goal:** Launch an Ubuntu EC2 instance, create user `devops_intern` with passwordless sudo, and rename the hostname.  
